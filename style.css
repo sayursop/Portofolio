@@ -605,30 +605,19 @@ nav a:hover{
 /* ================================================= */
 
 .pengalaman-container{
+    gap: 35px;
 
-    display:grid;
+    margin-bottom: 50px;
 
-    grid-template-columns:repeat(2,1fr);
-
-    gap:35px;
-
-    max-width:900px;
-
-    margin:auto;
-
-    margin-top:40px;
-
-    margin-bottom:70px;
-
+    flex-wrap: wrap;
 }
+
 .pengalaman-box{
+    width: 340px;
 
-    width:100%;
+    min-height: 420px;
 
-    min-height:420px;
-
-    padding:35px;
-
+    padding: 30px;
 }
 
 .pengalaman-box h2{
